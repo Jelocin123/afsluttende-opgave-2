@@ -1,0 +1,175 @@
+$primay: #d08aac;
+$light: #D4E4E1;
+$dark: hsl(0, 0%, 14%);
+$body: #f7f3f2;
+$warning: #B8B8B9;
+$info: #fee9e1;
+$success: hsl(163, 24%, 71%); 
+$white: #f3eded;
+
+@import "./node_modules/bootstrap/scss/functions";
+
+@import "./node_modules/bootstrap/scss/variables";
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+  max-width: 930px;
+  h1 {
+    font-family: 'Spinnaker', sans-serif;
+    text-align: center;
+  }
+
+  p {
+    font-family: 'Spinnaker', sans-serif;
+    text-align: center;
+  }
+
+ 
+}
+  #nav_desktop {
+
+        .navbar-brand {
+            text-decoration: none;
+            color: white;
+            font-size: 25px;
+            font-family: 'Spinnaker', sans-serif;
+        }
+
+        ul {
+        list-style: none;
+        
+      
+      }
+    
+      
+        li {
+        display: inline;
+      }
+      
+        a {
+        text-decoration: none;
+        color: gray;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      :hover {
+        color: rgb(154, 154, 154);
+        transition: ease-in-out .5s;
+        text-decoration: underline rgb(187, 186, 186);
+      }
+
+      .bg_none {
+        background-color: rgba(0, 0, 0, 0);
+      }
+
+      .btn {
+        bottom: 20px;
+      }
+      
+
+    
+  }
+
+.height_light {
+  height: 20px;
+}
+
+h3 {
+  
+  font-size: 20px;
+}
+
+h2 {
+  font-family: 'Spinnaker', sans-serif;
+
+  p {
+    font-size: 17px;
+  }
+}
+
+section {
+
+  .email_here {
+    font-size: 16px;
+    text-align: left;
+    font-family: 'Spinnaker', sans-serif;
+    border-radius: 0;
+    border: 1px solid black;
+    font-weight: lighter;
+    
+  }
+
+  .sub_now {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Spinnaker', sans-serif;
+    border-radius: 0;
+    border: 0;
+    color: $white;
+    font-weight: lighter;
+  }
+}
+
+.bg_none {
+  background-color: #00000000;
+}
+
+.card-text {
+  font-size: 18px;
+  font-family: 'Spinnaker', sans-serif;
+  .acc {
+    font-size: 28px;
+  font-family: 'Spinnaker', sans-serif;
+
+  }
+}
+
+footer {
+  h5 {
+    font-size: 25px;
+    font-family: 'Spinnaker', sans-serif;
+    color: #6e6e6f;
+  }
+
+  h6 {
+    font-size: 16px;
+    font-family: 'Spinnaker', sans-serif;
+    color: #6e6e6f;
+  }
+  p {
+    font-size: 14px;
+    
+  }
+
+  .border-end {
+    min-height: 100px;
+  }
+  a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Spinnaker', sans-serif;
+    color: #909090;
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
